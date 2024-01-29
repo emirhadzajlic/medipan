@@ -1,0 +1,49 @@
+
+
+.gallery {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10vh;
+}
+
+.row{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10vh;
+    /* width: 80vw; */
+}
+
+.row img{
+    width: 20vw;
+    height: 50vh;
+    object-fit: cover;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.row img:hover {
+    opacity: 0.8;
+}
+
+
+@media only screen and (max-width: 1000px) {
+
+    .background {
+        display: none;
+    }
+
+    
+    .row{
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 0;
+    }
+
+    .row img{
+        width: 80vw;
+        height: 50vh;
+        margin-bottom: 10vh;
+    }
+
+
+}

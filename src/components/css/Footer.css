@@ -1,0 +1,28 @@
+.footer{
+    background-color: rgba(239, 239, 239, 0.745);
+    /* background-color: #adce77a3; */
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10%;
+}
+
+/* .footer img{ */
+    /* width: 10vw; */
+    /* opacity: 60%; */
+/* } */
+
+.footer p {
+    color: rgb(85, 85, 85);
+    /* color: white; */
+}
+
+.insta{
+    color: rgb(85, 85, 85);
+    cursor: pointer;
+    font-size: 20px;
+    margin-left: 20px;
+    position: relative;
+    top: 5px;
+}

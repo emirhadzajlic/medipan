@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Muli', sans-serif;
+}
+
+.aboutHeader{
+    /* position: absolute; */
+    background-color: #acce77;
+    width: 100%;
+    height: 20vh;
+    /* background-size: contain; */
+    /* margin-top: 55px; */
+    /* top: 64px; */
+    margin-top: 64px;
+    text-align: center;
+    line-height: 20vh;
+    font-size: 30px;
+    color: white;
+    text-transform: uppercase;
+    /* color: black; */
+}
+.aboutHeader h1{
+    position: relative;
+    top: 0;
+    animation-name: example1;
+  animation-duration: 1s;
+}
+
+.background {
+    position: fixed;
+    width: 100%;
+    /* height: 50vh; */
+    /* background: url("../img/bck02.png"); */
+    /* background-size: cover; */
+    z-index: -100;
+}
+
+.background img {
+    position: relative;
+    left: 40%;
+    /* width: 50%; */
+}
+
+.map{
+    width: 80%;
+    height: 70vh;
+    border: none;
+    border-radius: 30px;
+    display: block;
+    margin: 10vh auto;
+}
+
+.main-contact{
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* align-self: center; */
+}
+
+.con h2{
+    font-size: 30px;
+    color: #545454;
+    margin-bottom: 20px;
+}
+.con p {
+    margin: 5px;
+}
+
+.contact-data{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+
+.con a{
+    text-decoration: none;
+    color: #acce77;
+    /* display: none; */
+}
+
+@media only screen and (max-width: 1000px) {
+
+    .aboutHeader h1{
+        animation-name: none;
+    }
+
+    .background {
+        display: none;
+    }
+
+    .aboutHeader{
+        /* font-size: 20px; */
+        margin-top: 70px;
+    }
+
+    .contact-data{
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 4vh;
+    }
+
+    .con {
+        margin-bottom: 10vh;
+    }
+
+    .map{
+        /* height: 50vh; */
+        display: none;
+    }
+
+    .aboutHeader h1{
+        font-size: 35px;
+    }
+
+}
