@@ -94,15 +94,15 @@ function Nav(){
                     <li><Link to="/kuhinje">Kuhinje</Link></li>
                     <li><Link to="/o-nama">O Nama</Link></li>
                     <li><Link to="/kontakt">Kontakt</Link></li>
-                    <li><Link to="tel:+38268248640" className="number"><FaPhoneAlt /> 068 248 640</Link></li>
+                    <li><Link to="tel:+38268248640" className="number" aria-label="Poziv na broj +382 68 248 640"><FaPhoneAlt /> 068 248 640</Link></li>
 
-                    <button onClick={changePosition} className="xButton"><FaTimes /></button>
+                    <li onClick={changePosition} className="xButton"><FaTimes /></li>
 
                 </ul>
                 
                 <div className="navScreen">
-                    <a href="tel:+38268248640" className="phoneButton"><FaPhoneAlt/></a>
-                    <button onClick={changePosition} className="hamButton"><FaBars/></button>
+                    <a href="tel:+38268248640" className="phoneButton" aria-label="Poziv na broj +382 68 248 640"><FaPhoneAlt/></a>
+                    <a onClick={changePosition} className="hamButton"><FaBars/></a>
                 </div>
                 
             </header>

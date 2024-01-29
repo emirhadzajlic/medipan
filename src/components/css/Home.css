@@ -140,8 +140,8 @@
     color: white;
     margin-bottom: 20px;
     /* text-transform: uppercase; */
-    animation-name: example1;
-  animation-duration: 1s;
+    /* animation-name: example1; */
+  /* animation-duration: 1s; */
 }
 
 .home-content p {
@@ -153,8 +153,8 @@
     font-weight: 600;
     font-size: 20px;
     letter-spacing: 1px;
-    animation-name: example2;
-  animation-duration: 1s;
+    /* animation-name: example2; */
+  /* animation-duration: 1s; */
 }
 
 ::-webkit-scrollbar {
@@ -237,8 +237,10 @@
     font-size: 15px;
     font-weight: 600;
     text-transform: uppercase;
-    background-color: #acce77;
+    /* background-color: #acce77; */
+    background-color: #a4d653;
     color: white;
+    /* color: #333; */
     box-shadow: 1px 1px 5px rgb(75, 75, 75);
     transition: 0.6s;
     text-align: center;
