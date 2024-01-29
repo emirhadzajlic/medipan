@@ -8,7 +8,6 @@ import { Link } from 'react-router-dom';
 
 import { AiFillInstagram } from "react-icons/ai";
 import { FaFacebook } from "react-icons/fa";
-import { FaFacebookF } from "react-icons/fa";
 import { FaTiktok } from "react-icons/fa";
 import { Helmet } from 'react-helmet';
 
