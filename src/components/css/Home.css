@@ -140,8 +140,8 @@
     color: white;
     margin-bottom: 20px;
     /* text-transform: uppercase; */
-    /* animation-name: example1; */
-  /* animation-duration: 1s; */
+    animation-name: example1;
+  animation-duration: 1s;
 }
 
 .home-content p {
@@ -153,8 +153,8 @@
     font-weight: 600;
     font-size: 20px;
     letter-spacing: 1px;
-    /* animation-name: example2; */
-  /* animation-duration: 1s; */
+    animation-name: example2;
+  animation-duration: 1s;
 }
 
 ::-webkit-scrollbar {
