@@ -1,2 +1,2 @@
-RewriteCond %{HTTP_HOST} ^www\.example\.com$
-RewriteRule ^/?$ "http\:\/\/example\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^www\.medipan\.me$
+RewriteRule ^/?$ "http\:\/\/medipan\.me\/" [R=301,L]
