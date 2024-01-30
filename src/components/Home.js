@@ -1,10 +1,9 @@
 import React from "react";
 import "./css/Home.css";
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import Nav from "./Nav"
 import Footer from "./Footer"
 import { useNavigate } from "react-router-dom";
-import { Link } from 'react-router-dom';
 
 import { AiFillInstagram } from "react-icons/ai";
 import { FaFacebook } from "react-icons/fa";
@@ -15,8 +14,6 @@ import KronospanSvg from './img/kronospan.svg';
 import Kaindl from './img/kaindl.svg'
 import Blum from './img/blum.svg'
 
-
-{/* <FaFacebookF /> */}
 
 
 function Home(){
@@ -35,11 +32,7 @@ function Home(){
       <>
 
         <Helmet>
-        {/* <meta
-          name="description"
-          content="MEDIPAN je firma koja proizvodi kuhinje i sav ostali namještaj koji je potreban za vaš dom, od iverice i medijapana.
-          Kuhinje po mjeri i želji! - MEDIPAN, Bijelo Polje"
-        /> */}
+
         <link rel="canonical" href="https://medipan.me/" />
 
         <meta
@@ -88,10 +81,6 @@ function Home(){
           
         </section>
 
-        {/* <section className="socials"> */}
-          {/* <button></button> */}
-        {/* </section> */}
-
         <section className="home-main">
 
           <div className="about">
@@ -115,7 +104,6 @@ function Home(){
             </div>
             <div className="row2">
             <img loading="lazy" title="Corpus" width={300} height={300} src={require("./img/corpus.png")} alt="Corpus - Softver za dizajniranje kuhinja i ostalog namještaja"></img>
-            {/* <img src={require("./img/gtv.png")}></img> */}
             <img loading="lazy" title="Blum" width={300} height={300} src={Blum} alt="Blum - proizvođač okova za namještaj"></img>
             <img loading="lazy" title="Kaindl" width={300} height={300} src={Kaindl} alt="Kaindl - proizvođač pločastih materijala"></img>
             </div>
@@ -137,8 +125,6 @@ Pružamo vam priliku da stvorite kulinarsko okruženje u kojem će se savremena 
 
           
         </section>
-
-        {/* <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fmedipan.me&width=30px&layout&action&size&share=false&height=35&appId" width="100%" height="50px" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" className="fbLike"></iframe> */}
 
         <Footer/>
       </>

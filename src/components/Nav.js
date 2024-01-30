@@ -2,12 +2,11 @@ import React from "react";
 import "./css/Nav.css";
 import { useEffect, useState } from 'react';
 import { FaPhoneAlt, FaBars, FaTimes} from "react-icons/fa";
-import { useNavigate, useLocation } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 import { Link } from 'react-router-dom';
 import Medipan from './img/medipan08.svg'
 
 import { isMobile } from 'react-device-detect';
-import { click } from "@testing-library/user-event/dist/click";
 
 
 function Nav(){
@@ -15,10 +14,7 @@ function Nav(){
 
     const [position, setPosition] = useState('-100%');
     const [pom, setPom] = useState(false)
-    const [clicked, setClicked] = useState('false')
 
-
-    const navigate = useNavigate();
     const location = useLocation();
 
 
@@ -82,9 +78,6 @@ function Nav(){
     return(
             <header id="header" className={headerClassName}>
 
-                {/* <section className="background">
-                    <img src={require("./img/bck02.png")}></img>
-                </section> */}
 
                 <Link to="/" onClick={handleHomeClick} className="logo"><img loading="eager" title="MEDIPAN" width={300} height={70} src={Medipan} alt="MEDIPAN Logo"></img></Link>
 
