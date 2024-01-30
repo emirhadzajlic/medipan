@@ -30,6 +30,7 @@ header {
 } */
 header .logo img{
     width: 15vw;
+    height: auto;
     cursor: pointer;
     /* background-color: aqua; */
 }

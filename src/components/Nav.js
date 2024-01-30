@@ -86,7 +86,7 @@ function Nav(){
                     <img src={require("./img/bck02.png")}></img>
                 </section> */}
 
-                <Link to="/" onClick={handleHomeClick} className="logo"><img loading="eager" title="MEDIPAN" width={300} height={'auto'} src={Medipan} alt="MEDIPAN Logo"></img></Link>
+                <Link to="/" onClick={handleHomeClick} className="logo"><img loading="eager" title="MEDIPAN" width={300} height={70} src={Medipan} alt="MEDIPAN Logo"></img></Link>
 
 
                 <ul style={{ left: position }}>
