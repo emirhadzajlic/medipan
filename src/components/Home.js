@@ -33,7 +33,7 @@ function Home(){
 
         <Helmet>
 
-        <link rel="canonical" href="https://medipan.me/" />
+        {/* <link rel="canonical" href="https://medipan.me/" /> */}
 
         <meta
           name="description"
