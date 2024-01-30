@@ -65,11 +65,11 @@ function Home(){
         <Nav/>
 
         <section className="background">
-          <img loading="eager" width={880} height={'auto'} title="MEDIPAN logo" src={require("./img/medipan-home.webp")} alt="Dio MEDIPAN logo-a u obliku kuće koja predstavlja uređenje doma."></img>
+          <img loading="eager" width={880} height={875} title="MEDIPAN logo" src={require("./img/medipan-home.webp")} alt="Dio MEDIPAN logo-a u obliku kuće koja predstavlja uređenje doma."></img>
         </section>
 
         <section className="banner">
-          <img loading="eager" width={'100%'} height={'100%'} title="MEDIPAN pozadina" src={require("./img/kuhinja_pozadina.webp")} alt="Kuhinja po mjeri koju smo mi radili postavljena kao pozadina."></img>
+          <img loading="eager" width={100} height={100} title="MEDIPAN pozadina" src={require("./img/kuhinja_pozadina.webp")} alt="Kuhinja po mjeri koju smo mi radili postavljena kao pozadina."></img>
         </section>
 
         <section className="dark"></section>
@@ -97,7 +97,7 @@ function Home(){
           <div className="about">
               <h2>O Nama</h2>
               <div className="about-content">
-                <img loading="lazy" title="Enterijer radionice MEDIPAN" width={300} height={'auto'} src={require("./img/enterijer.webp")} alt="Enterijer naše radionice MEDIPAN gdje proizvodimo kuhinje po mjeri i ostali namještaj."></img>
+                <img loading="lazy" title="Enterijer radionice MEDIPAN" width={300} height={300} src={require("./img/enterijer.webp")} alt="Enterijer naše radionice MEDIPAN gdje proizvodimo kuhinje po mjeri i ostali namještaj."></img>
                 <div className="about-text">
                   <p>Dobrodošli u MEDIPAN, mladu i dinamičnu firmu koja se bavi proizvodnjom vrhunskog pločastog namještaja po mjeri.
                     Iako smo tek započeli svoje poslovanje, brzo se razvijamo i težimo postati vodeći proizvođač modernog namještaja...</p>
@@ -110,21 +110,21 @@ function Home(){
 
           <div className="collaborations">
             <div className="row1">
-              <img loading="lazy" title="Egger" width={300} height={'auto'} src={require("./img/egger.png")} alt="Egger - proizvođač pločastih materijala"></img>
-              <img loading="lazy" title="Kronospan" width={300} height={'auto'} src={KronospanSvg} alt="Kronospan - proizvođač pločastih materijala"></img>
+              <img loading="lazy" title="Egger" width={300} height={300} src={require("./img/egger.png")} alt="Egger - proizvođač pločastih materijala"></img>
+              <img loading="lazy" title="Kronospan" width={300} height={300} src={KronospanSvg} alt="Kronospan - proizvođač pločastih materijala"></img>
             </div>
             <div className="row2">
-            <img loading="lazy" title="Corpus" width={300} height={'auto'} src={require("./img/corpus.png")} alt="Corpus - Softver za dizajniranje kuhinja i ostalog namještaja"></img>
+            <img loading="lazy" title="Corpus" width={300} height={300} src={require("./img/corpus.png")} alt="Corpus - Softver za dizajniranje kuhinja i ostalog namještaja"></img>
             {/* <img src={require("./img/gtv.png")}></img> */}
-            <img loading="lazy" title="Blum" width={300} height={'auto'} src={Blum} alt="Blum - proizvođač okova za namještaj"></img>
-            <img loading="lazy" title="Kaindl" width={300} height={'auto'} src={Kaindl} alt="Kaindl - proizvođač pločastih materijala"></img>
+            <img loading="lazy" title="Blum" width={300} height={300} src={Blum} alt="Blum - proizvođač okova za namještaj"></img>
+            <img loading="lazy" title="Kaindl" width={300} height={300} src={Kaindl} alt="Kaindl - proizvođač pločastih materijala"></img>
             </div>
           </div>
 
           <div className="about">
               <h2>Kuhinje</h2>
               <div className="about-content">
-                <img loading="lazy" title="Kuhinja po mjeri" width={300} height={'auto'} src={require("./img/kuhinja_po_mjeri.webp")} alt="Jedna od naših kuhinja po mjeri odradjena od plocastih materijala, medijapana i univera, koja se savršeno uklapa u ovaj prostor."></img>
+                <img loading="lazy" title="Kuhinja po mjeri" width={300} height={300} src={require("./img/kuhinja_po_mjeri.webp")} alt="Jedna od naših kuhinja po mjeri odradjena od plocastih materijala, medijapana i univera, koja se savršeno uklapa u ovaj prostor."></img>
                 <div className="about-text">
                   <p>Bez obzira da li birate klasičan minimalizam, elegantan savremeni dizajn ili nešto sasvim drugačije, naše kuhinje po mjeri su tu da zadovolje vaše jedinstvene ukuse i potrebe.
 Pružamo vam priliku da stvorite kulinarsko okruženje u kojem će se savremena estetika susresti s praktičnošću, stvarajući kuhinju koja će postati epicentar vašeg doma.</p>
