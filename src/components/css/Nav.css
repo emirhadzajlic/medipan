@@ -109,8 +109,9 @@ header ul li a:hover:after {
 }
 
 .sticky ul li a {
-    color: #727272;
+    /* color: #727272; */
 }
+
 
 .sticky ul li .number{
     color: white;
@@ -139,7 +140,7 @@ header ul li a:hover:after {
     /* color: #727272; */
 }
 
-.sticky .navScreen a, .sticky .navScreen button{
+.sticky .navScreen a, .sticky .navScreen span{
     color: #a4d653;
     /* color: #acce77; */
 }

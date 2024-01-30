@@ -49,10 +49,10 @@ function Home(){
 
         <meta property="og:title" content="Kuhinje po mjeri - MEDIPAN" />
         <meta property="og:url" content="https://medipan.me/" />
-        <meta property="og:image" content="./img/medipan.png" />
+        <meta property="og:image" content="./img/medipan08.png" />
         <meta property="og:type" content="website" />
         <meta property="og:description" content="Otkrijte vrhunsku izradu kuhinja po mjeri prilagođenih vašem ukusu i prostoru. Nudimo vam besplatne 3D nacrte kako biste zaronili u budućnost vašeg doma.✅" />
-        <meta property="og:locale" content="me_ME" />
+        <meta property="og:locale" content="sh_SH" />
 
           <title>Kuhinje po mjeri - MEDIPAN</title>
 
@@ -65,7 +65,7 @@ function Home(){
         <Nav/>
 
         <section className="background">
-          <img loading="eager" width={900} height={'auto'} title="MEDIPAN logo" src={require("./img/medipan-home.png")} alt="Dio MEDIPAN logo-a u obliku kuće koja predstavlja uređenje doma."></img>
+          <img loading="eager" width={880} height={'auto'} title="MEDIPAN logo" src={require("./img/medipan-home.png")} alt="Dio MEDIPAN logo-a u obliku kuće koja predstavlja uređenje doma."></img>
         </section>
 
         <section className="banner">

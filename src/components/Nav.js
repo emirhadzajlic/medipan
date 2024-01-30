@@ -102,7 +102,7 @@ function Nav(){
                 
                 <div className="navScreen">
                     <a href="tel:+38268248640" className="phoneButton" aria-label="Poziv na broj +382 68 248 640"><FaPhoneAlt/></a>
-                    <a onClick={changePosition} className="hamButton"><FaBars/></a>
+                    <span onClick={changePosition} className="hamButton"><FaBars/></span>
                 </div>
                 
             </header>
