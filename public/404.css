@@ -11,12 +11,50 @@ body{
     background-color: rgb(230, 230, 230);
 }
 
+.main{
+    width: 50%;
+    margin: 20vh auto;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
 h1{
-    text-align: center;
+    text-align: center; 
     color: rgb(183, 35, 35);
+    font-size: 60px;
+    margin-bottom: 30px;
+    margin-top: 30px;
 }
 
 p{
     text-align: center;
     color: rgb(120, 120, 120);
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+a{
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 1000px) {
+
+    .main{
+        width: 80%;
+        margin: 15vh auto;
+    }
+    
+    h1{
+        font-size: 30px;
+    }
+    
+    p{
+        color: rgb(120, 120, 120);
+        font-size: 20px;
+    }
+    
+    a{
+        text-decoration: none;
+    }
+
 }
