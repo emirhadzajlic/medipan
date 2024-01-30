@@ -47,6 +47,8 @@ function Home(){
         <meta property="og:description" content="Otkrijte vrhunsku izradu kuhinja po mjeri prilagođenih vašem ukusu i prostoru. Nudimo vam besplatne 3D nacrte kako biste zaronili u budućnost vašeg doma.✅" />
         <meta property="og:locale" content="sh_SH" />
 
+        <meta name="google-site-verification" content="KTbxqNxWVEXnhfJcI7Rzjq_7d-QyKBf3abjPy-WztOQ" />
+
           <title>Kuhinje po mjeri - MEDIPAN</title>
 
 
