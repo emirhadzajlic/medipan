@@ -34,7 +34,7 @@ function Kitchens(){
         <Nav></Nav>
 
         <section className="background">
-          <img loading="eager" width={900} height={'auto'} title="MEDIPAN logo" src={require("./img/medipan-home.png")} alt="Dio MEDIPAN logo-a u obliku kuće koja predstavlja uređenje doma."></img>
+          <img loading="eager" width={900} height={'auto'} title="MEDIPAN logo" src={require("./img/medipan-home.webp")} alt="Dio MEDIPAN logo-a u obliku kuće koja predstavlja uređenje doma."></img>
         </section>
 
         <div className="aboutHeader">

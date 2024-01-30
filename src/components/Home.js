@@ -65,12 +65,13 @@ function Home(){
         <Nav/>
 
         <section className="background">
-          <img loading="eager" width={880} height={'auto'} title="MEDIPAN logo" src={require("./img/medipan-home.png")} alt="Dio MEDIPAN logo-a u obliku kuće koja predstavlja uređenje doma."></img>
+          <img loading="eager" width={880} height={'auto'} title="MEDIPAN logo" src={require("./img/medipan-home.webp")} alt="Dio MEDIPAN logo-a u obliku kuće koja predstavlja uređenje doma."></img>
         </section>
 
         <section className="banner">
-          {/* <img src={require("./img/m02.jpg")}></img> */}
+          <img loading="eager" width={'100%'} height={'100%'} title="MEDIPAN pozadina" src={require("./img/kuhinja_pozadina.webp")} alt="Kuhinja po mjeri koju smo mi radili postavljena kao pozadina."></img>
         </section>
+
         <section className="dark"></section>
 
         <section className="home">

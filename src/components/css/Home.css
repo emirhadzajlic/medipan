@@ -26,12 +26,19 @@
     /* left: 0; */
     width: 100%;
     height: 100vh;
-    background: url("../img/kuhinja_pozadina.webp");
-    background-size: cover;
+    /* background: url("../img/kuhinja_pozadina.webp"); */
+    /* background-size: cover; */
     /* box-shadow: 0px 20px 50px 100px #a8a8a8; */
     /* border-bottom: 10px solid #acce77; */
     /* border-bottom: 10px solid #a4d653; */
     z-index: -1;
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: left;
 }
 
 /* .banner img{
@@ -280,12 +287,12 @@
 
 @media only screen and (max-width: 1000px) {
 
-    .banner {
-        background: url("../img/kuhinja_pozadina.jpg");
-        background-size: cover;
+    /* .banner { */
+        /* background: url("../img/kuhinja_pozadina.jpg"); */
+        /* background-size: cover; */
         /* width: 100%; */
         /* height: 100vh; */
-    }
+    /* } */
 
     .background {
         display: none;
