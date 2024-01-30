@@ -96,7 +96,7 @@ function Home(){
           <div className="about">
               <h2>O Nama</h2>
               <div className="about-content">
-                <img loading="lazy" title="Enterijer radionice MEDIPAN" width={300} height={'auto'} src={require("./img/enterijer.jpg")} alt="Enterijer naše radionice MEDIPAN gdje proizvodimo kuhinje po mjeri i ostali namještaj."></img>
+                <img loading="lazy" title="Enterijer radionice MEDIPAN" width={300} height={'auto'} src={require("./img/enterijer.webp")} alt="Enterijer naše radionice MEDIPAN gdje proizvodimo kuhinje po mjeri i ostali namještaj."></img>
                 <div className="about-text">
                   <p>Dobrodošli u MEDIPAN, mladu i dinamičnu firmu koja se bavi proizvodnjom vrhunskog pločastog namještaja po mjeri.
                     Iako smo tek započeli svoje poslovanje, brzo se razvijamo i težimo postati vodeći proizvođač modernog namještaja...</p>
@@ -123,7 +123,7 @@ function Home(){
           <div className="about">
               <h2>Kuhinje</h2>
               <div className="about-content">
-                <img loading="lazy" title="Kuhinja po mjeri" width={300} height={'auto'} src={require("./img/kuhinja_po_mjeri.jpg")} alt="Jedna od naših kuhinja po mjeri odradjena od plocastih materijala, medijapana i univera, koja se savršeno uklapa u ovaj prostor."></img>
+                <img loading="lazy" title="Kuhinja po mjeri" width={300} height={'auto'} src={require("./img/kuhinja_po_mjeri.webp")} alt="Jedna od naših kuhinja po mjeri odradjena od plocastih materijala, medijapana i univera, koja se savršeno uklapa u ovaj prostor."></img>
                 <div className="about-text">
                   <p>Bez obzira da li birate klasičan minimalizam, elegantan savremeni dizajn ili nešto sasvim drugačije, naše kuhinje po mjeri su tu da zadovolje vaše jedinstvene ukuse i potrebe.
 Pružamo vam priliku da stvorite kulinarsko okruženje u kojem će se savremena estetika susresti s praktičnošću, stvarajući kuhinju koja će postati epicentar vašeg doma.</p>

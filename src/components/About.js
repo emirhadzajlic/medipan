@@ -53,7 +53,7 @@ function About(){
 <br/><br/>Naša strast za dizajnom i kvalitetom odražava se u svakom komadu namještaja koji stvaramo. Posvećeni smo pružanju elegantnih i funkcionalnih rješenja koja će uljepšati vaš prostor.
 </p>
             
-          <img loading="eager" width={300} height={'auto'} title="MEDIPAN logo" src={require("./img/objekat.jpg")} alt="Naša radionica spolja"></img>
+          <img loading="eager" width={300} height={'auto'} title="MEDIPAN logo" src={require("./img/objekat.webp")} alt="Naša radionica spolja"></img>
 
           <p>
           Cilj nam je postati neosporni lider u industriji pločastog namještaja, uvodeći inovacije, prateći savremene trendove i isporučujući proizvode vrhunske izrade. S ponosom gradimo most između tradicije i modernog dizajna, stvarajući namještaj koji će zadovoljiti najzahtjevnije ukuse.

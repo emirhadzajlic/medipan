@@ -48,17 +48,17 @@ function Kitchens(){
         <div className="gallery">
 
           <div className="row">
-            <img loading="eager" title="Kuhinja po mjeri" width={300} height={300} src={require("./img/kuhinja_po_mjeri.jpg")} alt="Moderna kuhinja po mjeri u kombinacija bijelog medijapana i tamnog hunton hrasta"></img>
-            <img loading="eager" title="Kuhinja po mjeri" width={300} height={'auto'} src={require("./img/kuhinja02.jpg")} alt="Bijela Kuhinja po mjeri sa antracit detaljima"></img>
-            <img loading="eager" title="Kuhinja po mjeri" width={300} height={'auto'} src={require("./img/kuhinja03.jpg")} alt="Neobična antracit kuhinja po mjeri"></img>
-            <img loading="eager" title="Kuhinja po mjeri" width={300} height={'auto'} src={require("./img/kuhinja10.jpg")} alt="Ova kuhinja po mjeri pored funkcionalnosti odiše i estetikom"></img>
+            <img loading="eager" title="Kuhinja po mjeri" width={300} height={300} src={require("./img/kuhinja_po_mjeri.webp")} alt="Moderna kuhinja po mjeri u kombinacija bijelog medijapana i tamnog hunton hrasta"></img>
+            <img loading="eager" title="Kuhinja po mjeri" width={300} height={'auto'} src={require("./img/kuhinja02.webp")} alt="Bijela Kuhinja po mjeri sa antracit detaljima"></img>
+            <img loading="eager" title="Kuhinja po mjeri" width={300} height={'auto'} src={require("./img/kuhinja03.webp")} alt="Neobična antracit kuhinja po mjeri"></img>
+            <img loading="eager" title="Kuhinja po mjeri" width={300} height={'auto'} src={require("./img/kuhinja10.webp")} alt="Ova kuhinja po mjeri pored funkcionalnosti odiše i estetikom"></img>
           </div>
 
           <div className="row">
-            <img loading="eager" title="Kuhinja po mjeri" width={300} height={'auto'} src={require("./img/kuhinja04.jpg")} alt="Bijela kuhinja po mjeri sa šankom"></img>
-            <img loading="eager" title="Kuhinja po mjeri" width={300} height={'auto'} src={require("./img/kuhinja06.jpg")} alt="Crna kuhinja po mjeri sa policama"></img>
-            <img loading="eager" title="Kuhinja po mjeri" width={300} height={'auto'} src={require("./img/kuhinja07.jpg")} alt="Manja kuhinja po mjeri sa maksimalno iskorišćenim prostorom"></img>
-            <img loading="eager" title="Kuhinja po mjeri" width={300} height={'auto'} src={require("./img/kuhinja08.jpg")} alt="Antracit kuhinja po mjeri bez gornjih elemenata"></img>
+            <img loading="eager" title="Kuhinja po mjeri" width={300} height={'auto'} src={require("./img/kuhinja04.webp")} alt="Bijela kuhinja po mjeri sa šankom"></img>
+            <img loading="eager" title="Kuhinja po mjeri" width={300} height={'auto'} src={require("./img/kuhinja06.webp")} alt="Crna kuhinja po mjeri sa policama"></img>
+            <img loading="eager" title="Kuhinja po mjeri" width={300} height={'auto'} src={require("./img/kuhinja07.webp")} alt="Manja kuhinja po mjeri sa maksimalno iskorišćenim prostorom"></img>
+            <img loading="eager" title="Kuhinja po mjeri" width={300} height={'auto'} src={require("./img/kuhinja08.webp")} alt="Antracit kuhinja po mjeri bez gornjih elemenata"></img>
           </div>
           {/* <div className="row">
             <img src={require("./img/kuhinja04.jpg")}></img>

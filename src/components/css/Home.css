@@ -26,7 +26,7 @@
     /* left: 0; */
     width: 100%;
     height: 100vh;
-    background: url("../img/kuhinja_pozadina.jpg");
+    background: url("../img/kuhinja_pozadina.webp");
     background-size: cover;
     /* box-shadow: 0px 20px 50px 100px #a8a8a8; */
     /* border-bottom: 10px solid #acce77; */
@@ -238,12 +238,12 @@
     font-weight: 600;
     text-transform: uppercase;
     /* background-color: #acce77; */
-    /* background-color: #a4d653; */
+    background-color: #a4d653;
     /* background-color: #74ac1a; */
     /* background-color: #115D88; */
-    background-color: white;
-    color: #2B8356;
-    /* color: white; */
+    /* background-color: white; */
+    /* color: #2B8356; */
+    color: white;
     /* color: #333; */
     box-shadow: 1px 1px 5px rgb(75, 75, 75);
     transition: 0.6s;
