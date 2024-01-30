@@ -52,7 +52,6 @@ function Home(){
 
           <title>Kuhinje po mjeri | MEDIPAN</title>
 
-          <meta name="google-site-verification" content="KTbxqNxWVEXnhfJcI7Rzjq_7d-QyKBf3abjPy-WztOQ" />
 
         </Helmet>
 
