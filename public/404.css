@@ -11,50 +11,76 @@ body{
     background-color: rgb(230, 230, 230);
 }
 
-.main{
-    width: 50%;
-    margin: 20vh auto;
-    border: 1px solid black;
-    border-radius: 10px;
+
+main{
+    margin-top: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
-h1{
-    text-align: center; 
-    color: rgb(183, 35, 35);
-    font-size: 60px;
-    margin-bottom: 30px;
-    margin-top: 30px;
-}
-
-p{
-    text-align: center;
-    color: rgb(120, 120, 120);
-    font-size: 30px;
-    margin-bottom: 30px;
+main img{
+    width: 40%;
 }
 
 a{
     text-decoration: none;
+    width: 200px;
+    height: 60px;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;   
+    cursor: pointer;
+    background-color: rgb(35, 175, 66);
+    color: white;
+    font-size: 25px;
 }
+
+h1{
+    text-align: center; 
+    color: rgb(80, 80, 80);
+    font-size: 40px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.info{
+    width: 40%;
+}
+ul li{
+    font-size: 15px;
+    color: rgb(120, 120, 120);
+    margin-bottom: 10px;
+}
+
+p{
+    color: rgb(120, 120, 120);
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
 
 @media only screen and (max-width: 1000px) {
 
-    .main{
-        width: 80%;
-        margin: 15vh auto;
-    }
     
+    main{
+        /* margin-top: 10vh; */
+        flex-direction: column;
+    }
+    .info{
+        width: 80%;
+    }
+    main img{
+        width: 80%;
+    }
     h1{
-        font-size: 30px;
+        font-size: 25px;
     }
     
     p{
         color: rgb(120, 120, 120);
-        font-size: 20px;
+        font-size: 15px;
     }
-    
-    a{
-        text-decoration: none;
-    }
+
 
 }
