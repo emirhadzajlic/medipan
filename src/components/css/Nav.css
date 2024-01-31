@@ -179,8 +179,8 @@ header ul li a:hover:after {
     .xButton {
         display: block;
         position: absolute;
-        top: 8vh;
-        left: 80vw;
+        top: 6vh;
+        left: 75vw;
         font-size: 30px;
         background-color: #ffffff00;
         border: none;

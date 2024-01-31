@@ -37,14 +37,14 @@ function Home(){
 
         <meta
           name="description"
-          content="Otkrijte vrhunsku izradu kuhinja po mjeri prilagođenih vašem ukusu i prostoru. Nudimo vam besplatne 3D nacrte kako biste zaronili u budućnost vašeg doma.✅"
+          content="Vrhunska izrada kuhinja po mjeri i ostalog namještaja, dostupnih u Crnoj Gori. Ispunite vaše snove s besplatnim 3D nacrtima.✅"
         />
 
         <meta property="og:title" content="Kuhinje po mjeri | MEDIPAN" />
         <meta property="og:url" content="https://www.medipan.me/" />
         <meta property="og:image" content="./img/medipan08.png" />
         <meta property="og:type" content="website" />
-        <meta property="og:description" content="Otkrijte vrhunsku izradu kuhinja po mjeri prilagođenih vašem ukusu i prostoru. Nudimo vam besplatne 3D nacrte kako biste zaronili u budućnost vašeg doma.✅" />
+        <meta property="og:description" content="Vrhunska izrada kuhinja po mjeri i ostalog namještaja, dostupih u Crnoj Gori. Ispunite vaše snove s besplatnim 3D nacrtima.✅" />
         <meta property="og:locale" content="sh_SH" />
 
 
@@ -90,7 +90,7 @@ function Home(){
               <div className="about-content">
                 <img loading="lazy" title="Enterijer radionice MEDIPAN" width={300} height={300} src={require("./img/enterijer.webp")} alt="Enterijer naše radionice MEDIPAN gdje proizvodimo kuhinje po mjeri i ostali namještaj."></img>
                 <div className="about-text">
-                  <p>Dobrodošli u MEDIPAN, mladu i dinamičnu firmu koja se bavi proizvodnjom vrhunskog pločastog namještaja po mjeri.
+                  <p>Dobrodošli u MEDIPAN, mladu i dinamičnu firmu iz Crne Gore koja se bavi proizvodnjom vrhunskog pločastog namještaja po mjeri.
                     Iako smo tek započeli svoje poslovanje, brzo se razvijamo i težimo postati vodeći proizvođač modernog namještaja...</p>
 
                   <button onClick={()=>{navigate('/o-nama')}} aria-label="Pročitaj više">Pročitaj Više</button>
