@@ -1,4 +1,5 @@
-RewriteEngine on
+<IfModule mod_rewrite.c>
+RewriteEngine On
 RewriteCond %{HTTP_HOST} ^www\.medipan\.me$
-RewriteCond %{HTTP_HOST} ^medipan\.me$
 RewriteRule ^/?$ "http\:\/\/medipan\.me\/" [R=301,L]
+</IfModule>
