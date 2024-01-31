@@ -33,7 +33,7 @@ function Home(){
 
         <Helmet>
 
-        {/* <link rel="canonical" href="https://medipan.me/" /> */}
+        <link rel="canonical" href="https://www.medipan.me/" />
 
         <meta
           name="description"
@@ -41,7 +41,7 @@ function Home(){
         />
 
         <meta property="og:title" content="Kuhinje po mjeri | MEDIPAN" />
-        <meta property="og:url" content="https://medipan.me/" />
+        <meta property="og:url" content="https://www.medipan.me/" />
         <meta property="og:image" content="./img/medipan08.png" />
         <meta property="og:type" content="website" />
         <meta property="og:description" content="Otkrijte vrhunsku izradu kuhinja po mjeri prilagođenih vašem ukusu i prostoru. Nudimo vam besplatne 3D nacrte kako biste zaronili u budućnost vašeg doma.✅" />
