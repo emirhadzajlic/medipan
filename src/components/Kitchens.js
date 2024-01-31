@@ -31,8 +31,6 @@ function Kitchens(){
 
           <meta name="robots" content="noindex" />
 
-          <link rel="manifest" href="https://www.medipan.me/kuhinje/manifest.json" />
-
 
         </Helmet>
 
