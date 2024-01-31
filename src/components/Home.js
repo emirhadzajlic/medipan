@@ -85,12 +85,12 @@ function Home(){
 
         <section className="home-main">
 
-          <div className="about">
+          <div className="about" itemscope itemtype="https://schema.org/Organization">
               <h2>O Nama</h2>
               <div className="about-content">
-                <img loading="lazy" title="Enterijer radionice MEDIPAN" width={300} height={300} src={require("./img/enterijer.webp")} alt="Enterijer naše radionice MEDIPAN gdje proizvodimo kuhinje po mjeri i ostali namještaj."></img>
+                <img loading="lazy" title="Enterijer radionice MEDIPAN" width={300} height={300} src={require("./img/enterijer.webp")} alt="Enterijer naše radionice MEDIPAN gdje proizvodimo kuhinje po mjeri i ostali namještaj." itemprop="image"></img>
                 <div className="about-text">
-                  <p>Dobrodošli u MEDIPAN, mladu i dinamičnu firmu iz Crne Gore koja se bavi proizvodnjom vrhunskog pločastog namještaja po mjeri.
+                  <p itemprop="description">Dobrodošli u MEDIPAN, mladu i dinamičnu firmu iz Crne Gore koja se bavi proizvodnjom vrhunskog pločastog namještaja po mjeri.
                     Iako smo tek započeli svoje poslovanje, brzo se razvijamo i težimo postati vodeći proizvođač modernog namještaja...</p>
 
                   <button onClick={()=>{navigate('/o-nama')}} aria-label="Pročitaj više">Pročitaj Više</button>
@@ -99,24 +99,24 @@ function Home(){
               </div>
           </div>
 
-          <div className="collaborations">
+          <div className="collaborations" itemscope itemtype="https://schema.org/Organization">
             <div className="row1">
-              <img loading="lazy" title="Egger" width={300} height={300} src={require("./img/egger.png")} alt="Egger - proizvođač pločastih materijala"></img>
-              <img loading="lazy" title="Kronospan" width={300} height={300} src={KronospanSvg} alt="Kronospan - proizvođač pločastih materijala"></img>
+              <img loading="lazy" title="Egger" width={300} height={300} src={require("./img/egger.png")} alt="Egger - proizvođač pločastih materijala" itemprop="logo"></img>
+              <img loading="lazy" title="Kronospan" width={300} height={300} src={KronospanSvg} alt="Kronospan - proizvođač pločastih materijala" itemprop="logo"></img>
             </div>
             <div className="row2">
-            <img loading="lazy" title="Corpus" width={300} height={300} src={require("./img/corpus.png")} alt="Corpus - Softver za dizajniranje kuhinja i ostalog namještaja"></img>
-            <img loading="lazy" title="Blum" width={300} height={300} src={Blum} alt="Blum - proizvođač okova za namještaj"></img>
-            <img loading="lazy" title="Kaindl" width={300} height={300} src={Kaindl} alt="Kaindl - proizvođač pločastih materijala"></img>
+            <img loading="lazy" title="Corpus" width={300} height={300} src={require("./img/corpus.png")} alt="Corpus - Softver za dizajniranje kuhinja i ostalog namještaja" itemprop="logo"></img>
+            <img loading="lazy" title="Blum" width={300} height={300} src={Blum} alt="Blum - proizvođač okova za namještaj" itemprop="logo"></img>
+            <img loading="lazy" title="Kaindl" width={300} height={300} src={Kaindl} alt="Kaindl - proizvođač pločastih materijala" itemprop="logo"></img>
             </div>
           </div>
 
-          <div className="about">
+          <div className="about" itemscope itemtype="https://schema.org/Product">
               <h2>Kuhinje</h2>
               <div className="about-content">
-                <img loading="lazy" title="Kuhinja po mjeri" width={300} height={300} src={require("./img/kuhinja_po_mjeri.webp")} alt="Jedna od naših kuhinja po mjeri odradjena od plocastih materijala, medijapana i univera, koja se savršeno uklapa u ovaj prostor."></img>
+                <img loading="lazy" title="Kuhinja po mjeri" width={300} height={300} src={require("./img/kuhinja_po_mjeri.webp")} alt="Jedna od naših kuhinja po mjeri odradjena od plocastih materijala, medijapana i univera, koja se savršeno uklapa u ovaj prostor." itemprop="image"></img>
                 <div className="about-text">
-                  <p>Bez obzira da li birate klasičan minimalizam, elegantan savremeni dizajn ili nešto sasvim drugačije, naše kuhinje po mjeri su tu da zadovolje vaše jedinstvene ukuse i potrebe.
+                  <p itemprop="description">Bez obzira da li birate klasičan minimalizam, elegantan savremeni dizajn ili nešto sasvim drugačije, naše kuhinje po mjeri su tu da zadovolje vaše jedinstvene ukuse i potrebe.
 Pružamo vam priliku da stvorite kulinarsko okruženje u kojem će se savremena estetika susresti s praktičnošću, stvarajući kuhinju koja će postati epicentar vašeg doma.</p>
 
                   <button onClick={()=>{navigate('/kuhinje')}} aria-label="Ostale kuhinje po mjeri">Kuhinje</button>
