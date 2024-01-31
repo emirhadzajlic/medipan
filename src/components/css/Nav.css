@@ -62,12 +62,6 @@ header ul li a {
 
 }
 
-header ul li a:hover {
-    /* color: #acce77; */
-    /* text-decoration: underline; */
-    /* text-decoration-color: #acce77; */
-    /* transition: 0.6s; */
-}
 header ul li a:after {
     content: "";
     position: absolute;
@@ -137,9 +131,7 @@ header ul li a:hover:after {
     margin: 0 10px;
     /* color: #acce77; */
 }
-.hamButton:hover{
-    /* color: #727272; */
-}
+
 
 .sticky .navScreen a, .sticky .navScreen span{
     color: #a4d653;
@@ -228,9 +220,7 @@ header ul li a:hover:after {
         color: #acce77;
     }
 
-    header .logo img{
-        /* width: 20vw; */
-    }
+
 
     .phoneButton, .hamButton{
         margin: 0 13px;
