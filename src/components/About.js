@@ -27,6 +27,8 @@ function About(){
           />
           <title>O Nama | MEDIPAN</title>
 
+          <meta name="robots" content="noindex" />
+
         </Helmet>
 
         <Nav></Nav>

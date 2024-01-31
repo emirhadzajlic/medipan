@@ -35,6 +35,8 @@ function Contact(){
           />
           <title>Kontakt | MEDIPAN</title>
 
+          <meta name="robots" content="noindex" />
+
         </Helmet>
 
         <Nav></Nav>

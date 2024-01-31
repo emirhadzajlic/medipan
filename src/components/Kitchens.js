@@ -29,6 +29,8 @@ function Kitchens(){
           />
           <title>Kuhinje | MEDIPAN</title>
 
+          <meta name="robots" content="noindex" />
+
         </Helmet>
 
         <Nav></Nav>

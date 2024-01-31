@@ -1,6 +1,2 @@
-# https://www.robotstxt.org/robotstxt.html
 User-agent: *
-Allow: /
-Disallow: /kuhinje
-Disallow: /o-nama
-Disallow: /kontakt
+Disallow:
