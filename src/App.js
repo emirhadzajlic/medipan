@@ -24,7 +24,6 @@ function App() {
           <Route path="/o-nama" element={<About/>} />
           <Route path="/kuhinje" element={<Kitchens/>} />
           <Route path="/kontakt" element={<Contact/>} />
-          <React path="*" element={<h2>Page Not Found</h2>}/>
           {/* <Route path="/account" element={<Account/>} /> */}
         </Routes>
       </BrowserRouter>{" "}
