@@ -19,11 +19,12 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Home/>} />
+          <Route exact path="/" element={<Home/>} />
           {/* <Route path="/naslovna" element={<Home/>} /> */}
-          <Route path="/o-nama" element={<About/>} />
-          <Route path="/kuhinje" element={<Kitchens/>} />
-          <Route path="/kontakt" element={<Contact/>} />
+          <Route exact path="/o-nama" element={<About/>} />
+          <Route exact path="/kuhinje" element={<Kitchens/>} />
+          <Route exact path="/kontakt" element={<Contact/>} />
+          <React path="*" element={<h2>Page Not Found</h2>}/>
           {/* <Route path="/account" element={<Account/>} /> */}
         </Routes>
       </BrowserRouter>{" "}
