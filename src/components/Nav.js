@@ -87,7 +87,7 @@ function Nav(){
                 <ul style={{ left: position }}>
                     <li><Link to="/" onClick={handleHomeClick} itemprop="url">Naslovna</Link></li>
                     <li><Link to="/kuhinje" itemprop="url">Kuhinje</Link></li>
-                    <li><Link to="/o-nama"> itemprop="url"O Nama</Link></li>
+                    <li><Link to="/o-nama" itemprop="url">O Nama</Link></li>
                     <li><Link to="/kontakt" itemprop="url">Kontakt</Link></li>
                     <li><Link to="tel:+38268248640" className="number" aria-label="Poziv na broj +382 68 248 640" itemprop="telephone"><FaPhoneAlt /> 068 248 640</Link></li>
 
