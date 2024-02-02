@@ -43,10 +43,6 @@
     /* width: 50%; */
 }
 
-.main-content{
-    
-}
-
 .main-content p{
     width: 60%;
     margin: 10vh auto;
@@ -97,14 +93,14 @@
 
     .main-content p{
         width: 85vw;
-        margin: 10vh auto;
+        margin: 5vh auto;
         font-size: 18px;
         /* text-align: center; */
     }
     
     .main-content img {
         display: block;
-        margin: 10vh auto;
+        margin: 6vh auto;
         width: 83vw;
         height: auto;
         /* height: 400px; */
