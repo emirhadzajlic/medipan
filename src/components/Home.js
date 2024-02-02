@@ -59,17 +59,17 @@ function Home(){
 
         <Nav/>
 
-        <section className="background">
+        <div className="background">
           <img loading="eager" width={880} height={875} title="MEDIPAN logo" src={require("./img/medipan-home.webp")} alt="Dio MEDIPAN logo-a u obliku kuće koja predstavlja uređenje doma."></img>
-        </section>
+        </div>
 
-        <section className="banner">
+        <div className="banner">
           <img loading="eager" width={1600} height={896} title="MEDIPAN pozadina" src={require("./img/kuhinja_pozadina.webp")} alt="Kuhinja po mjeri koju smo mi radili postavljena kao pozadina."></img>
-        </section>
+        </div>
 
-        <section className="dark"></section>
+        <div className="dark"></div>
 
-        <section className="home">
+        <header className="home">
           <div className="home-content">
             <h1>Kuhinje po mjeri</h1>
             <p>Izrađujemo cjelokupan namještaj od iverice i medijapana</p>  
@@ -81,11 +81,11 @@ function Home(){
             <a href="https://www.tiktok.com/@medipan.me" aria-label="Profil na TikTok @medipan.me"><FaTiktok /></a>
           </div>
           
-        </section>
+        </header>
 
-        <section className="home-main">
+        <main className="home-main">
 
-          <div className="about" itemscope itemtype="https://schema.org/Organization">
+          <section className="about" itemscope itemtype="https://schema.org/Organization">
               <h2>O Nama</h2>
               <div className="about-content">
                 <img loading="lazy" title="Enterijer radionice MEDIPAN" width={500} height={375} src={require("./img/enterijer.webp")} alt="Enterijer naše radionice MEDIPAN gdje proizvodimo kuhinje po mjeri i ostali namještaj." itemprop="image"></img>
@@ -97,9 +97,9 @@ function Home(){
                 </div>
                 
               </div>
-          </div>
+          </section>
 
-          <div className="collaborations" itemscope itemtype="https://schema.org/Organization">
+          <section className="collaborations" itemscope itemtype="https://schema.org/Organization">
             <div className="row1">
               <img loading="lazy" title="Egger" width={700} height={394} src={require("./img/egger.png")} alt="Egger - proizvođač pločastih materijala" itemprop="logo"></img>
               <img loading="lazy" title="Kronospan" width={300} height={300} src={KronospanSvg} alt="Kronospan - proizvođač pločastih materijala" itemprop="logo"></img>
@@ -109,9 +109,9 @@ function Home(){
             <img loading="lazy" title="Blum" width={300} height={300} src={Blum} alt="Blum - proizvođač okova za namještaj" itemprop="logo"></img>
             <img loading="lazy" title="Kaindl" width={300} height={300} src={Kaindl} alt="Kaindl - proizvođač pločastih materijala" itemprop="logo"></img>
             </div>
-          </div>
+          </section>
 
-          <div className="about" itemscope itemtype="https://schema.org/Product">
+          <section className="about" itemscope itemtype="https://schema.org/Product">
               <h2>Kuhinje</h2>
               <div className="about-content">
                 <img loading="lazy" title="Kuhinja po mjeri" width={768} height={760} src={require("./img/kuhinja_po_mjeri.webp")} alt="Jedna od naših kuhinja po mjeri odradjena od plocastih materijala, medijapana i univera, koja se savršeno uklapa u ovaj prostor." itemprop="image"></img>
@@ -123,10 +123,10 @@ Pružamo vam priliku da stvorite kulinarsko okruženje u kojem će se savremena 
                 </div>
                 
               </div>
-          </div>
+          </section>
 
           
-        </section>
+        </main>
 
         <Footer/>
       </>
