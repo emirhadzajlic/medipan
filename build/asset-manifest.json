@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.c98e377b.css",
-    "main.js": "/static/js/main.3371579d.js",
+    "main.js": "/static/js/main.0d1c055e.js",
     "static/js/787.b800e454.chunk.js": "/static/js/787.b800e454.chunk.js",
     "static/media/kuhinja_pozadina.webp": "/static/media/kuhinja_pozadina.933bbaee585a683c3bdc.webp",
     "static/media/enterijer.webp": "/static/media/enterijer.4878102a2b63bacec7f2.webp",
@@ -22,11 +22,11 @@
     "static/media/kaindl.svg": "/static/media/kaindl.71feabd038400b0dda7828debef5db06.svg",
     "index.html": "/index.html",
     "main.c98e377b.css.map": "/static/css/main.c98e377b.css.map",
-    "main.3371579d.js.map": "/static/js/main.3371579d.js.map",
+    "main.0d1c055e.js.map": "/static/js/main.0d1c055e.js.map",
     "787.b800e454.chunk.js.map": "/static/js/787.b800e454.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c98e377b.css",
-    "static/js/main.3371579d.js"
+    "static/js/main.0d1c055e.js"
   ]
 }

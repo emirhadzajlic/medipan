@@ -45,7 +45,7 @@ function Home(){
         <meta property="og:image" content="./img/medipan08.png" />
         <meta property="og:type" content="website" />
         <meta property="og:description" content="Vrhunska izrada kuhinja po mjeri i ostalog namještaja, dostupih u Crnoj Gori. Ispunite vaše snove s besplatnim 3D nacrtima.✅" />
-        <meta property="og:locale" content="sh_SH" />
+        <meta property="og:locale" content="sr-ME" />
 
 
         
