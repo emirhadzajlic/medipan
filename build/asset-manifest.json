@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.c98e377b.css",
-    "main.js": "/static/js/main.0d1c055e.js",
+    "main.js": "/static/js/main.44ecc72b.js",
     "static/js/787.b800e454.chunk.js": "/static/js/787.b800e454.chunk.js",
     "static/media/kuhinja_pozadina.webp": "/static/media/kuhinja_pozadina.933bbaee585a683c3bdc.webp",
     "static/media/enterijer.webp": "/static/media/enterijer.4878102a2b63bacec7f2.webp",
@@ -14,7 +14,7 @@
     "static/media/kuhinja06.webp": "/static/media/kuhinja06.106a532782eb2acc43f8.webp",
     "static/media/kuhinja03.webp": "/static/media/kuhinja03.46a5b31d8a410e48c373.webp",
     "static/media/kuhinja04.webp": "/static/media/kuhinja04.53698747554f971b959b.webp",
-    "static/media/medipan08.svg": "/static/media/medipan08.b99e7e7468fa70d3b604982af8ca2095.svg",
+    "static/media/medipan.svg": "/static/media/medipan.b99e7e7468fa70d3b604982af8ca2095.svg",
     "static/media/corpus.png": "/static/media/corpus.4630c5edbf6be7041643.png",
     "static/media/medipan-home.webp": "/static/media/medipan-home.8dcc5ea0a0e38e9ba9be.webp",
     "static/media/kronospan.svg": "/static/media/kronospan.0ebf9851ff81dec08006f8b2cf5e18ed.svg",
@@ -22,11 +22,11 @@
     "static/media/kaindl.svg": "/static/media/kaindl.71feabd038400b0dda7828debef5db06.svg",
     "index.html": "/index.html",
     "main.c98e377b.css.map": "/static/css/main.c98e377b.css.map",
-    "main.0d1c055e.js.map": "/static/js/main.0d1c055e.js.map",
+    "main.44ecc72b.js.map": "/static/js/main.44ecc72b.js.map",
     "787.b800e454.chunk.js.map": "/static/js/787.b800e454.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c98e377b.css",
-    "static/js/main.0d1c055e.js"
+    "static/js/main.44ecc72b.js"
   ]
 }

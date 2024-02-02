@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react';
 import { FaPhoneAlt, FaBars, FaTimes} from "react-icons/fa";
 import { useLocation } from "react-router-dom";
 import { Link } from 'react-router-dom';
-import Medipan from './img/medipan08.svg'
+import Medipan from './img/medipan.svg'
 
 import { isMobile } from 'react-device-detect';
 
