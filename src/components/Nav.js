@@ -20,7 +20,7 @@ function Nav(){
 
     const [isSticky, setIsSticky] = useState(false);
 
-    function handleHomeClick(){
+    const handleHomeClick = () => {
         window.scrollTo({
             top: 0,
             behavior: 'smooth'
@@ -28,7 +28,7 @@ function Nav(){
     }
 
 
-    function changePosition(){
+    const changePosition = () => {
 
         // setClicked(clicked++)
    
@@ -67,38 +67,40 @@ function Nav(){
         };
       }, []); 
 
-      let headerClassName = isSticky ? "sticky" : "";
+    //   let headerClassName = isSticky ? "sticky" : "";
 
-      if (location.pathname !== '/' && location.pathname !== '/naslovna') {
-        headerClassName = "sticky";
-      }
+      let headerClassName = (isSticky || location.pathname !== '/') ? "sticky" : "";
+
+    //   if (location.pathname !== '/') {
+        // headerClassName = "sticky";
+    //   }
 
       
 
     return(
-            <header id="header" className={headerClassName}>
+            <nav id="header" className={headerClassName} itemscope itemtype="http://schema.org/SiteNavigationElement">
 
 
-                <Link to="/" onClick={handleHomeClick} className="logo"><img loading="eager" title="MEDIPAN" width={300} height={70} src={Medipan} alt="MEDIPAN Logo"></img></Link>
+                <Link to="/" onClick={handleHomeClick} className="logo" itemprop="url"><img loading="eager" title="MEDIPAN" width={300} height={70} src={Medipan} alt="MEDIPAN Logo"></img></Link>
 
 
                 <ul style={{ left: position }}>
-                    <li><Link to="/" onClick={handleHomeClick}>Naslovna</Link></li>
-                    <li><Link to="/kuhinje">Kuhinje</Link></li>
-                    <li><Link to="/o-nama">O Nama</Link></li>
-                    <li><Link to="/kontakt">Kontakt</Link></li>
-                    <li><Link to="tel:+38268248640" className="number" aria-label="Poziv na broj +382 68 248 640"><FaPhoneAlt /> 068 248 640</Link></li>
+                    <li><Link to="/" onClick={handleHomeClick} itemprop="url">Naslovna</Link></li>
+                    <li><Link to="/kuhinje" itemprop="url">Kuhinje</Link></li>
+                    <li><Link to="/o-nama"> itemprop="url"O Nama</Link></li>
+                    <li><Link to="/kontakt" itemprop="url">Kontakt</Link></li>
+                    <li><Link to="tel:+38268248640" className="number" aria-label="Poziv na broj +382 68 248 640" itemprop="telephone"><FaPhoneAlt /> 068 248 640</Link></li>
 
                     <li onClick={changePosition} className="xButton"><FaTimes /></li>
 
                 </ul>
                 
                 <div className="navScreen">
-                    <a href="tel:+38268248640" className="phoneButton" aria-label="Poziv na broj +382 68 248 640"><FaPhoneAlt/></a>
+                    <a href="tel:+38268248640" className="phoneButton" aria-label="Poziv na broj +382 68 248 640" itemprop="telephone"><FaPhoneAlt/></a>
                     <span onClick={changePosition} className="hamButton"><FaBars/></span>
                 </div>
                 
-            </header>
+            </nav>
     )
 
 }

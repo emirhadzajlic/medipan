@@ -1,4 +1,4 @@
-.footer{
+footer{
     background-color: rgba(239, 239, 239, 0.745);
     /* background-color: #adce77a3; */
     height: 70px;
@@ -13,7 +13,7 @@
     /* opacity: 60%; */
 /* } */
 
-.footer p {
+footer p {
     color: rgb(85, 85, 85);
     /* color: white; */
 }
