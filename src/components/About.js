@@ -50,7 +50,7 @@ function About(){
         
 
           <p>
-          Dobrodošli u MEDIPAN, mladu i dinamičnu firmu iz Crne Gore koja se bavi proizvodnjom vrhunskog pločastog namještaja po mjeri od iverice i medijapana. Iako smo tek započeli svoje poslovanje, brzo se razvijamo i težimo postati vodeći proizvođač modernog namještaja.
+          Dobrodošli u MEDIPAN, mladu i dinamičnu firmu iz Crne Gore koja se bavi proizvodnjom vrhunskog pločastog namještaja po mjeri. Iako smo tek započeli svoje poslovanje, brzo se razvijamo i težimo postati vodeći proizvođač modernog namještaja.
 
 <br/><br/>Naša strast za dizajnom i kvalitetom odražava se u svakom komadu namještaja koji stvaramo. Posvećeni smo pružanju elegantnih i funkcionalnih rješenja koja će uljepšati vaš prostor.
 </p>

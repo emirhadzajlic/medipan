@@ -40,7 +40,7 @@ function Home(){
           content="Vrhunska izrada kuhinja i ostalog namještaja po mjeri, u Crnoj Gori. Nudimo vam i besplatne 3D nacrte kuhinja po mjeri. Ono što vi zamislite mi ostvarujemo."
         />
 
-        <meta property="og:title" content="Kuhinje po mjeri | MEDIPAN" />
+        <meta property="og:title" content="Kuhinje po mjeri | Izrada pločastog namještaja" />
         <meta property="og:url" content="https://www.medipan.me/" />
         <meta property="og:image" content="./img/medipan.png" />
         <meta property="og:type" content="website" />
