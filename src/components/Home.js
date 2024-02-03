@@ -37,20 +37,20 @@ function Home(){
 
         <meta
           name="description"
-          content="Vrhunska izrada kuhinja i ostalog namještaja u Crnoj Gori. Nudimo vam i besplatne 3D nacrte kuhinja po mjeri. Ono što vi zamislite mi ostvarujemo.✅"
+          content="Vrhunska izrada kuhinja i ostalog namještaja po mjeri, u Crnoj Gori. Nudimo vam i besplatne 3D nacrte kuhinja po mjeri. Ono što vi zamislite mi ostvarujemo."
         />
 
         <meta property="og:title" content="Kuhinje po mjeri | MEDIPAN" />
         <meta property="og:url" content="https://www.medipan.me/" />
         <meta property="og:image" content="./img/medipan.png" />
         <meta property="og:type" content="website" />
-        <meta property="og:description" content="Vrhunska izrada kuhinja i ostalog namještaja u Crnoj Gori. Nudimo vam i besplatne 3D nacrte kuhinja po mjeri. Ono što vi zamislite mi ostvarujemo.✅" />
+        <meta property="og:description" content="Vrhunska izrada kuhinja i ostalog namještaja po mjeri, u Crnoj Gori. Nudimo vam i besplatne 3D nacrte kuhinja po mjeri. Ono što vi zamislite mi ostvarujemo." />
         <meta property="og:locale" content="sr-ME" />
 
 
         
 
-          <title>Kuhinje po mjeri | MEDIPAN</title>
+          <title>Kuhinje po mjeri | Izrada pločastog namještaja</title>
 
 
         </Helmet>
